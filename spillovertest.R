@@ -35,5 +35,6 @@ cryptomerged <- merge(cryptomerged, xrpsub, by="date",all.x = TRUE)
 colnames(cryptomerged) <- c('date','btc','ltc', 'xrp') 
 cryptomerged2 <- subset(cryptomerged, date>"2015-01-30")
 
+#test for cryptocurrency market only(BTC, LTC, XRP, from 2015-01-30 )
 dy_results <- dynamic.spillover(data=cryptomerged2, width=200, na.fill = T, remove.own = FALSE)
  
