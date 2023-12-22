@@ -1,2 +1,2 @@
-# Test for cryptocurrency connnectedness
+# Test for cryptoasset connnectedness
 
